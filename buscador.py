@@ -10,7 +10,7 @@ def heuristica_euclidiana(nodo_a, nodo_b):
 
 def encontrar_ruta_optima(inicio, fin, hora_viaje=8, alerta_viento=False, min_tullave=30):
     # Cola de prioridad: (f_costo, g_tiempo, costo_dinero, nodo_actual, historial_ruta, servicio_actual)
-    abiertos = [(0, 0, 3200, inicio, [], None)]
+    abiertos = [(0, 0, 3500, inicio, [], None)]
     visitados = {}
 
     while abiertos:

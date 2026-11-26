@@ -31,5 +31,5 @@ def calcular_costo_tullave(sistema_origen, sistema_destino, minutos_desde_ultimo
         if minutos_desde_ultimo_viaje <= 110:
             return 0
         else:
-            return 3200
+            return 3500
     return 0
